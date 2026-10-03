@@ -584,8 +584,6 @@ void playGIF() {
 
   float percent = voltage  * 100 / voltageMax;
 
-  Serial.println(percent);
-
   int index = percent * 7 / 100;
 
   for (uint8_t frame = 0; frame <= index; frame++) {
